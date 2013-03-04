@@ -30,7 +30,12 @@
   "devDependencies": {
     "grunt-contrib-jshint": "~0.1.1",
     "grunt-contrib-nodeunit": "~0.1.2",
-    "grunt-contrib-watch": "~0.2.0"
+    "grunt-contrib-watch": "~0.2.0",
+    "mocha": "~1.8.1",
+    "chai": "~1.4.2"
   },
-  "keywords": []
+  "keywords": [],
+  "dependencies": {
+    "injectr": "git://github.com/Aomitayo/injectr.git"
+  }
 }

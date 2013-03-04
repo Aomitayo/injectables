@@ -1,0 +1,106 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.1.69
+3 info using node@v0.8.16
+4 verbose publish [ '.' ]
+5 verbose read json /storage/work/injectables/package.json
+6 verbose cache add [ '.', null ]
+7 silly cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { pathname: '.', path: '.', href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /home/adedayo/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/home/adedayo/tmp/npm-24160/1362405605729-0.5463733961805701/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /home/adedayo/tmp/npm-24160/1362405605729-0.5463733961805701/tmp.tgz
+14 verbose folder .
+15 info prepublish injectables@0.1.0
+16 silly lockFile bf1b2280-05729-0-5463733961805701-tmp-tgz /home/adedayo/tmp/npm-24160/1362405605729-0.5463733961805701/tmp.tgz
+17 verbose lock /home/adedayo/tmp/npm-24160/1362405605729-0.5463733961805701/tmp.tgz /home/adedayo/.npm/bf1b2280-05729-0-5463733961805701-tmp-tgz.lock
+18 silly lockFile bf1b2280-05729-0-5463733961805701-tmp-tgz /home/adedayo/tmp/npm-24160/1362405605729-0.5463733961805701/tmp.tgz
+19 verbose tar unpack /home/adedayo/tmp/npm-24160/1362405605729-0.5463733961805701/tmp.tgz
+20 silly lockFile cb870043-05729-0-5463733961805701-package /home/adedayo/tmp/npm-24160/1362405605729-0.5463733961805701/package
+21 verbose lock /home/adedayo/tmp/npm-24160/1362405605729-0.5463733961805701/package /home/adedayo/.npm/cb870043-05729-0-5463733961805701-package.lock
+22 silly gunzTarPerm modes [ '755', '644' ]
+23 silly gunzTarPerm extractEntry package.json
+24 silly gunzTarPerm extractEntry .npmignore
+25 silly gunzTarPerm extractEntry README.md
+26 silly gunzTarPerm extractEntry Gruntfile.js
+27 silly gunzTarPerm extractEntry lib/injectables.js
+28 silly gunzTarPerm extractEntry LICENSE-MIT
+29 silly gunzTarPerm extractEntry test/injectables_test.js
+30 silly gunzTarPerm extractEntry test/fixtures/simple-module.js
+31 silly gunzTarPerm extractEntry .jshintrc
+32 verbose read json /home/adedayo/tmp/npm-24160/1362405605729-0.5463733961805701/package/package.json
+33 silly lockFile cb870043-05729-0-5463733961805701-package /home/adedayo/tmp/npm-24160/1362405605729-0.5463733961805701/package
+34 verbose from cache /home/adedayo/tmp/npm-24160/1362405605729-0.5463733961805701/package/package.json
+35 verbose tar pack [ '/home/adedayo/.npm/injectables/0.1.0/package.tgz',
+35 verbose tar pack   '/home/adedayo/tmp/npm-24160/1362405605729-0.5463733961805701/package' ]
+36 verbose tarball /home/adedayo/.npm/injectables/0.1.0/package.tgz
+37 verbose folder /home/adedayo/tmp/npm-24160/1362405605729-0.5463733961805701/package
+38 silly lockFile bf7f1703-pm-injectables-0-1-0-package-tgz /home/adedayo/.npm/injectables/0.1.0/package.tgz
+39 verbose lock /home/adedayo/.npm/injectables/0.1.0/package.tgz /home/adedayo/.npm/bf7f1703-pm-injectables-0-1-0-package-tgz.lock
+40 silly lockFile bf7f1703-pm-injectables-0-1-0-package-tgz /home/adedayo/.npm/injectables/0.1.0/package.tgz
+41 silly lockFile 31422d52-yo-npm-injectables-0-1-0-package /home/adedayo/.npm/injectables/0.1.0/package
+42 verbose lock /home/adedayo/.npm/injectables/0.1.0/package /home/adedayo/.npm/31422d52-yo-npm-injectables-0-1-0-package.lock
+43 silly lockFile 31422d52-yo-npm-injectables-0-1-0-package /home/adedayo/.npm/injectables/0.1.0/package
+44 verbose tar unpack /home/adedayo/.npm/injectables/0.1.0/package.tgz
+45 silly lockFile 31422d52-yo-npm-injectables-0-1-0-package /home/adedayo/.npm/injectables/0.1.0/package
+46 verbose lock /home/adedayo/.npm/injectables/0.1.0/package /home/adedayo/.npm/31422d52-yo-npm-injectables-0-1-0-package.lock
+47 silly gunzTarPerm modes [ '755', '644' ]
+48 silly gunzTarPerm extractEntry package.json
+49 silly gunzTarPerm extractEntry .npmignore
+50 silly gunzTarPerm extractEntry README.md
+51 silly gunzTarPerm extractEntry Gruntfile.js
+52 silly gunzTarPerm extractEntry LICENSE-MIT
+53 silly gunzTarPerm extractEntry lib/injectables.js
+54 silly gunzTarPerm extractEntry .jshintrc
+55 silly gunzTarPerm extractEntry test/injectables_test.js
+56 silly gunzTarPerm extractEntry test/fixtures/simple-module.js
+57 verbose read json /home/adedayo/.npm/injectables/0.1.0/package/package.json
+58 silly lockFile 31422d52-yo-npm-injectables-0-1-0-package /home/adedayo/.npm/injectables/0.1.0/package
+59 silly shasum updated bytes 5716
+60 info shasum 7e880fd50565616ebe6a8cf8747f311f0e91f527
+60 info shasum /home/adedayo/.npm/injectables/0.1.0/package.tgz
+61 verbose from cache /home/adedayo/.npm/injectables/0.1.0/package/package.json
+62 verbose chmod /home/adedayo/.npm/injectables/0.1.0/package.tgz 644
+63 verbose chown /home/adedayo/.npm/injectables/0.1.0/package.tgz [ 1000, 100 ]
+64 silly lockFile 3a52ce78- .
+65 silly publish { name: 'injectables',
+65 silly publish   description: 'Dependency Injection manager for nodejs',
+65 silly publish   version: '0.1.0',
+65 silly publish   homepage: 'https://github.com/Aomitayo/injectables',
+65 silly publish   author:
+65 silly publish    { name: 'Adedayo Omitayo',
+65 silly publish      email: 'adedayo.omitayo@flowswift.com' },
+65 silly publish   repository:
+65 silly publish    { type: 'git',
+65 silly publish      url: 'git://github.com/Aomitayo/injectables.git' },
+65 silly publish   bugs: { url: 'https://github.com/Aomitayo/injectables/issues' },
+65 silly publish   licenses:
+65 silly publish    [ { type: 'MIT',
+65 silly publish        url: 'https://github.com/Aomitayo/injectables/blob/master/LICENSE-MIT' } ],
+65 silly publish   main: 'lib/injectables',
+65 silly publish   engines: { node: '>= 0.6.0' },
+65 silly publish   scripts: { test: 'mocha test/*' },
+65 silly publish   devDependencies:
+65 silly publish    { 'grunt-contrib-jshint': '~0.1.1',
+65 silly publish      'grunt-contrib-nodeunit': '~0.1.2',
+65 silly publish      'grunt-contrib-watch': '~0.2.0',
+65 silly publish      mocha: '~1.8.1',
+65 silly publish      chai: '~1.4.2' },
+65 silly publish   keywords: [],
+65 silly publish   dependencies: { injectr: 'git://github.com/Aomitayo/injectr.git' },
+65 silly publish   readme: '# injectables\n\nA Dependency manager for nodejs applications\n\n\n## Getting Started\nInstall the module with: `npm install injectables`\n\n```javascript\nvar injectables = require(\'injectables\');\n//Retrieve a dependency \ninjectables.get(\'dep1\'); // "awesome"\n```\n\n## Documentation\n\nIt manages dependencies for modules and factory functions. by  maintaining an\ninternal registry of dependencies. The dependencies may then by injected into\nmodules or factory functions via the API.\n\n### dependency names\n\nEvery module or Dependency is assigned a unique name which can later be used\nto retrive it.\nThe names may be explicitly specified(via the name parameter), deduced from\nthe specification of the dependency or randomly generated.\nThe name for every every dependency is assigned to the \'__injectorName\'\nproperty of the dependency\n\n\n### Dependency specifications\n\nA dependency specification is used to find, load and name a dependency.\nIt can be a string, factory function, or an array combination of strings\nand a factory function.\n\nString Specs come in 3 flavours:\n 1. File path: - An absolute or relative path to a node.js module, or directory containing modules\n 2.\tPackage path: A package name or partial path that specifies a submodule or subdirectory\n of the package. The String should be in the format:\n     ::<package_name>/<relative_path_to_module>\n\t3. A package or module property: specified in the format\n\t\t::<package_name>::<dot_notation_path>\n\nA factory function is a function that creates and returns an instance of the dependency.\nAn array spec is an array of strings followed by a factory function.\nThe strings in the lower indexes are resolved and passed as arguments to\nthe factory function at the last index.\n\n## Examples\n_(Coming soon)_\n\n## Contributing\nIn lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).\n\n## Release History\n_(Nothing yet)_\n\n## License\nCopyright (c) 2013 Adedayo Omitayo  \nLicensed under the MIT license.\n',
+65 silly publish   readmeFilename: 'README.md',
+65 silly publish   _id: 'injectables@0.1.0',
+65 silly publish   dist: { shasum: '7e880fd50565616ebe6a8cf8747f311f0e91f527' } }
+66 error need auth auth and email required for publishing
+66 error need auth You need to authorize this machine using `npm adduser`
+67 error System Linux 3.7.9-2-ARCH
+68 error command "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+69 error cwd /storage/work/injectables
+70 error node -v v0.8.16
+71 error npm -v 1.1.69
+72 error code ENEEDAUTH
+73 verbose exit [ 1, true ]
